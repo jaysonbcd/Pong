@@ -1,0 +1,27 @@
+<html>
+ <body>
+ </body>
+<script src="/Users/jaysonbcd/Documents/Pong/js/game.js"></script>
+<script src="/Users/jaysonbcd/Documents/Pong/js/game.display.js"></script>
+<script>
+(function () {
+  // dÃ©but du code isolÃ©
+  var requestAnimId;
+  
+  var initialisation = function() {
+    // le code de l'initialisation
+    game.init();
+    requestAnimId = window.requestAnimationFrame(main); // premier appel de main au rafraÃ®chissement de la page
+  }
+  
+  var main = function() {
+    // le code du jeu
+    requestAnimId = window.requestAnimationFrame(main); // rappel de main au prochain rafraÃ®chissement de la page
+  }
+  
+  window.onload = initialisation; // appel de la fonction initialisation au chargement de la page
+  
+  // fin du code isolÃ©
+})();
+</script> 
+</html>
