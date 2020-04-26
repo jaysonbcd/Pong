@@ -1,0 +1,32 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "http": "0.0.1-security",
+    "jquery": "^3.5.0",
+    "path": "^0.12.7",
+    "skeleton-css": "^2.0.4",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "dotenv-flow": "^3.1.0",
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaysonbcd/pong.git"
+  },
+  "author": "Jayson BOUCAUD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaysonbcd/pong/issues"
+  },
+  "homepage": "https://github.com/jaysonbcd/pong#readme"
+}
