@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./img/game.png">
+  </head>
+    <body>
+   <div id="menu">
+     <div class="menuItem">
+      <h1 id="Welcome">Rolland Garros Paris</h1><img src="./img/game.png"/ style="width:15%;">
+    <h3>Pour lancer un match:</h3>
+      <div class="centerDiv">
+        <button id="jIA" class="buttonClass" >Match IA </button><br>
+        <button id="j2vs2" class="buttonClass" >Match 2v2</button> <br>
+        <button id="j" class="buttonClass" > Match 1v1</button><br>
+        
+      </div>
+      <h3> Joindre une partie : </h3>
+        <p>- Entrer l'id de la room.<br>
+        - Click sur "Joindre Match".</p>
+     </div>
+      <div class="centerDiv">
+        <input id="RoomName" type="text" placeholder="Enter Game Id">
+      </div>  
+      <div class="centerDiv">
+      <button id="joinGame" class="buttonClass" >Joindre Match</button>
+    </div>
+    </div>
+    <div id='AccueilPart' style='display:none;' class='centerDiv'>
+      <p id="message"></p>
+      <button id="startGame" class="menuItem buttonClass" disabled>Ready</button>
+      <p id="messageWaiting"></p>
+      <div id="divGame"></div>
+  </div>
+    </body>
+   <script src="js/game.js"></script>
+   <script src="js/game.display.js"></script>
+   <script src="js/game.control.js"></script>
+   <script src="js/game.keycode.js"></script>
+   <script src="js/game.ai.js"></script>
+   <script src="/socket.io/socket.io.js"></script>
+   <script src="./js/socket.js"></script>
+   <script>
+    var socket = io.connect('http://localhost:8080');
+  
+   </script> 
+   </html>

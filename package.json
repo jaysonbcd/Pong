@@ -1,0 +1,27 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "description": "jeux pong ",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv-flow": "^3.1.0",
+    "express": "^4.17.1",
+    "jquery": "^3.5.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: \" && exit",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaysonbcd/Pong.git"
+  },
+  "author": "Jayson Boucaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaysonbcd/Pong/issues"
+  },
+  "homepage": "https://github.com/jaysonbcd/Pong#readme"
+}

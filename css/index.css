@@ -1,0 +1,82 @@
+
+
+#divGame{
+    margin:auto;
+}
+#j{
+    margin: 4px;
+}
+#j2vs2{
+    margin: 4px;
+}
+#jIA{
+    margin: 4px;
+
+}
+.centerDiv {
+    text-align: center;
+    font-size:  15px;
+    margin: 2px;
+    font-family: Impact;
+}
+
+#accueil{
+    margin-top: 15%;
+}
+
+  
+.buttonClass{
+   
+    height: 35px;
+    border-radius: 5px;
+    background-color:white;
+    border : rgb(65, 87, 100);
+    width: 15em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+
+.buttonClass:hover:enabled{
+    background-color:grey;
+    color : rgb(219, 116, 116);
+}
+
+#welcome{
+    margin-top: 45px;;
+}
+  
+#joinGame{
+    margin-top: 15px;
+}
+
+li{
+    list-style-type: none;
+}
+.menuItem {
+    display:block;
+    margin:auto;
+    text-align: center;
+}
+
+body{
+
+    background: linear-gradient(rgba(35, 121, 39, 0.692),rgba(29, 59, 39, 0.904));
+    color:rgb(173, 92, 15);
+}
+
+input {
+    border-radius: 10px;
+    width : 400px;
+    height: 45px;
+    border-radius: 10px;
+    
+}
+
+canvas {
+    bottom :0;
+    right: 0;
+    margin: auto;
+    margin-top: 150px;
+}
