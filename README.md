@@ -59,3 +59,9 @@ Open [localhost:8080/](http://localhost:8080/) to play the game.
 ## Author By 
 
 Jayson BOUCAUD
+
+capture d'ecran:
+<img width="865" alt="Capture d’écran 2020-04-27 à 04 54 02" src="https://user-images.githubusercontent.com/23208785/80329742-8859e300-8843-11ea-8c6b-4214124b521f.png">
+<img width="836" alt="Capture d’écran 2020-04-27 à 04 53 09" src="https://user-images.githubusercontent.com/23208785/80329746-8abc3d00-8843-11ea-9ac0-8305e4be29e0.png">
+
+
